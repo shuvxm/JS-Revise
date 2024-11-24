@@ -32,3 +32,16 @@ ex1.pop(); // here both ex, ex1 value will be same bcz ex1 is taking the referen
 
 
 //
+const pi = Math.PI;
+console.log(pi);
+
+// array, push, pop, unshift, shift , splice
+
+var arr = [12,23,34,56,67,78,89,90]
+// arr.shift() // it will delete first value
+// arr.unshift(345)  // this value will add at first/ oth index
+// arr.splice(3);  // this will remove the value from 3rd index to all
+arr.splice(3,1)
+
+
+// Object -> store description for one individual
