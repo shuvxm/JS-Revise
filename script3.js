@@ -88,3 +88,5 @@ var obj2 = {
   age: 34,
 };
 delete obj2.age
+
+console.log(obj2);
