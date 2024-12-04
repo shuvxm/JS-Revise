@@ -23,5 +23,3 @@ const newNum = myNums.filter((num) => {
   return num > 4; // here we should write return keyword bcz curly braces if we put it means its like a scope of object
 });
 console.log(newNum);
-
-
